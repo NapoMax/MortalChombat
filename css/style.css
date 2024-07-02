@@ -1,0 +1,54 @@
+body {
+    background-image: url("../image/9SA7eYu[4].gif");
+    background-size: cover;
+    color: rgb(38, 91, 184);
+    text-shadow: 3px 3px black;
+}
+
+.gameArea {
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+}
+
+#player1,
+#hp1 {
+    margin-right: 450px;
+}
+
+#player2 {
+    transform: scaleX(-1);
+}
+
+#player1,
+#player2 {
+    width: 300px;
+    height: 500px;
+}
+
+#hp1,
+#hp2,
+#title {
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+#retry {
+    width: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    font-family: fantasy;
+    font-weight: bold;
+    color: rgb(38, 91, 184);
+    text-shadow: 3px 3px black;
+    margin: 0 auto;
+    display: block;
+}
+
+.controls,
+#hp1,
+#hp2 {
+    display: inline;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal_Chombat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js"></script>
+</head>
+
+<body>
+    <input id="retry" type="button" value="Retry" onclick="reset()">
+    <div class="gameArea">
+        <span id="title">FIGHT</span>
+    </div>
+    <div class="gameArea">
+        <img class="controls" src="image/WASD.png" alt="Player1_Controls" width="150px">
+        <span id="hp1">100</span>
+        <img class="controls" src="image/ARROWS1.png" alt="Player1_Controls" width="150px">
+        <span id="hp2">100</span>
+    </div>
+    <div class="gameArea">
+        <img id="player1" src="image/kenshiro-hokuto-no-ken-stance-animation.gif" alt="character"
+            <!--onclick="attackPlayer2()" -->>
+        <img id="player2" src="image/kenshiro-hokuto-no-ken-stance-animation.gif" alt="character"
+            onclick="attackPlayer1()">
+    </div>
+</body>
+
+</html>
